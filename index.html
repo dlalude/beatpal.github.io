@@ -13,40 +13,45 @@
 
 <!-- Header -->
 <div class="bg-blue-600">
-  <div class="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-    <!-- Branding -->
-    <h2 class="text-xl text-white font-semibold">BeatPal</h2>
+  <div class="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-start sm:items-center">
+      <!-- Branding -->
+      <h2 class="text-xl text-white font-semibold mb-4 sm:mb-0">BeatPal</h2>
 
-    <!-- Middle - Search bar and menu items -->
-    <div class="flex items-center space-x-6">
-      <!-- Search Bar -->
-      <div class="relative">
-        <input type="text" class="rounded-md px-4 py-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300" placeholder="      Search...">
-        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-          <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1111.742 3.671l5.036 5.036a1 1 0 01-1.415 1.415l-5.036-5.036A6 6 0 012 8z" clip-rule="evenodd" />
-          </svg>
-        </div>
+      <!-- Middle - Search bar and menu items -->
+      <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6 w-full">
+          <!-- Search Bar -->
+          <div class="relative w-full sm:w-auto mb-4 sm:mb-0">
+              <input type="text" class="rounded-md px-4 py-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300" placeholder="Search...">
+              <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1111.742 3.671l5.036 5.036a1 1 0 01-1.415 1.415l-5.036-5.036A6 6 0 012 8z" clip-rule="evenodd" />
+                  </svg>
+              </div>
+          </div>
+
+          <!-- Menu items -->
+          <div class="flex space-x-4">
+              <a href="#" class="text-white hover:underline">Music</a>
+              <a href="#" class="text-white hover:underline">Members</a>
+              <a href="#" class="text-white hover:underline">Lists</a>
+          </div>
+
+          <!-- More dropdown (Visual only) -->
+          <div class="relative group mt-4 sm:mt-0">
+              <span class="text-white cursor-pointer">...</span>
+              <div class="absolute z-10 mt-2 w-48 bg-white rounded-md shadow-lg py-1 text-gray-700 divide-y divide-gray-100 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                  <a href="#" class="block px-4 py-2 hover:bg-indigo-500 hover:text-white">PRO</a>
+                  <a href="#" class="block px-4 py-2 hover:bg-indigo-500 hover:text-white">About</a>
+                  <a href="#" class="block px-4 py-2 hover:bg-indigo-500 hover:text-white">FAQ</a>
+                  <a href="#" class="block px-4 py-2 hover:bg-indigo-500 hover:text-white">Guidelines</a>
+                  <a href="#" class="block px-4 py-2 hover:bg-indigo-500 hover:text-white">Terms of Use</a>
+                  <a href="#" class="block px-4 py-2 hover:bg-indigo-500 hover:text-white">Privacy Policy</a>
+              </div>
+          </div>
       </div>
+  </div>
+</div>
 
-      <!-- Menu items -->
-      <a href="#" class="text-white hover:underline">Music</a>
-      <a href="#" class="text-white hover:underline">Members</a>
-      <a href="#" class="text-white hover:underline">Lists</a>
-
-      <!-- More dropdown (Visual only) -->
-      <div class="relative group">
-        <span class="text-white cursor-pointer">...</span>
-        <div class="absolute z-10 mt-2 w-48 bg-white rounded-md shadow-lg py-1 text-gray-700 divide-y divide-gray-100 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-          <a href="#" class="block px-4 py-2 hover:bg-indigo-500 hover:text-white">PRO</a>
-          <a href="#" class="block px-4 py-2 hover:bg-indigo-500 hover:text-white">About</a>
-          <a href="#" class="block px-4 py-2 hover:bg-indigo-500 hover:text-white">FAQ</a>
-          <a href="#" class="block px-4 py-2 hover:bg-indigo-500 hover:text-white">Guidelines</a>
-          <a href="#" class="block px-4 py-2 hover:bg-indigo-500 hover:text-white">Terms of Use</a>
-          <a href="#" class="block px-4 py-2 hover:bg-indigo-500 hover:text-white">Privacy Policy</a>
-        </div>
-      </div>
-    </div>
 
     <!-- Right - Login & Sign Up buttons -->
     <div class="space-x-6">
