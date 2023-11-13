@@ -1,7 +1,7 @@
 # beatpal.github.io
 Names of Collaborators:
-1. Deborah-Gifty Lalude
-2. Ugochukwu Osondu
+1. Ugochukwu Osondu
+2. Deborah-Gifty Lalude
 
 Purpose of code:
 A modern music rating app that lets you explore, rate, and rediscover music like never before.
